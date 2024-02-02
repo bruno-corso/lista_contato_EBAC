@@ -18,9 +18,9 @@ form.addEventListener('submit', (e) => {
         telefones.push(telefone)
         adicionaNaTabela();
         contarContatos();
+        nome = ''
+        telefone = ''
     }
-    nome = ''
-    telefone = ''
 })
 
 function adicionaNaTabela() {
